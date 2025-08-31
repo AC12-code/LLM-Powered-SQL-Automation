@@ -16,7 +16,7 @@ def get_few_shot_db_chain(question):
 
     llm = GoogleGenerativeAI(model="models/gemini-2.5-flash", google_api_key=os.environ["GOOGLE_API_KEY"])
     db_user="root"
-    db_password="Mysqllife12#"
+    db_password="Yourpassword"
     db_host="localhost"
     db_name="atliq_tshirts"
 
