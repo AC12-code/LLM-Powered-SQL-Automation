@@ -20,14 +20,16 @@ Powered by **LangChain + Google Gemini + HuggingFace Embeddings + MySQL**, it tr
 User asks: *"How many small size Levi t-shirts?"*  
 The system generates SQL, executes it, and gives a clean answer.  
 
-![Retail DB Query Example](./assets/633a0b9c-33b6-4c45-98c3-61be7f41f11a.png)  
+<img width="1050" height="618" alt="image" src="https://github.com/user-attachments/assets/3ccecfc3-2db8-4927-b3d5-da3fd5c4669d" />
+
 
 ---
 
 ### ❌ Example: Failed SQL Generation  
 If the schema doesn’t support the question, the LLM gracefully declines.  
 
-![Retail DB Failure Example](./assets/74d1cd8f-1c13-452a-bd20-e1533eef87c5.png)  
+<img width="1012" height="536" alt="image" src="https://github.com/user-attachments/assets/8310c80b-7dd0-4fbe-96a5-fdb251f01e72" />
+  
 
 ---
 
