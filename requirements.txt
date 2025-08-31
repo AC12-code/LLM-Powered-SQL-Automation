@@ -1,0 +1,11 @@
+python-dotenv==1.0.0
+streamlit==1.22.0
+tiktoken>=0.7.0          # 0.4.0 requires Rust build, use 0.7.0+ which has cp312 wheels
+faiss-cpu>=1.9.0
+   # Windows-compatible wheel build
+protobuf~=3.19.0
+langchain_experimental
+mysql-connector-python
+pymysql
+sentence-transformers
+chromadb
